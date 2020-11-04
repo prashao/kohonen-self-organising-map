@@ -1,5 +1,5 @@
 # kohonen-self-organising-map
-Implementation of unsupervised ML algorithm - self organising map
+Fast implementation of unsupervised ML algorithm - self organising map
 
 ## The Kohonen Network
 The Kohonen Self Organizing Map (SOM) provides a data visualization technique which helps to understand high dimensional data by reducing the dimensions of data to a map. SOM also represents clustering concept by grouping similar data together.
@@ -27,4 +27,4 @@ To train the network
     
 
 
-##### Further details are present in the Jupyter notebook - Kohonen.ipynb
+The Jupyter notebook - Kohonen.ipynb implements the above algorithm and then a walkthrough of the various runtime optimizations are presented. At the highest level of optimization the algorithm achieves a speed up of ~40X compared with the baseline implementation
